@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Home from "./Home";
+import About from "./About";
 
 class App extends React.Component {
   state = {
@@ -13,6 +14,7 @@ class App extends React.Component {
       <div>
         <Navbar></Navbar>
         <Home name={this.state.name} description={this.state.description}></Home>
+        <About></About>
       </div>
     );
   }
