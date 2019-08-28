@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
+import Navbar from "./Navbar";
 
 class App extends React.Component {
   state = {
