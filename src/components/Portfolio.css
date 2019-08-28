@@ -1,0 +1,9 @@
+.portfolio {
+  height: 50vh;
+  display: flex;
+
+  /* alignment */
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}

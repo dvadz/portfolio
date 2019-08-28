@@ -9,10 +9,10 @@ const Home = props => {
         <p>{props.description}</p>
       </div>
       <div className='social'>
-        <i class='fab fa-linkedin-in'></i>
-        <i class='fab fa-github-square'></i>
+        <i className='fab fa-linkedin-in'></i>
+        <i className='fab fa-github-square'></i>
       </div>
-      <i class='fas fa-chevron-circle-down'></i>
+      <i className='fas fa-chevron-circle-down'></i>
     </div>
   );
 };
