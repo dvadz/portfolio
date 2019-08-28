@@ -1,4 +1,20 @@
 .home {
-  color: blue;
+  /* color: blue; */
   height: 100vh;
+  display: flex;
+
+  /* alignment */
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fa-chevron-circle-down {
+  padding: 100px;
+  font-size: 3rem;
+}
+
+.social i {
+  padding: 10px;
+  font-size: 2rem;
 }
