@@ -1,7 +1,14 @@
 import React from "react";
+import "./About.css";
 
 const About = props => {
-  return <div className='text-center border'>About </div>;
+  return (
+    <div className='about text-center border'>
+      <div>
+        <h2>About Me</h2>
+      </div>{" "}
+    </div>
+  );
 };
 
 export default About;
