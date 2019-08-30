@@ -4,9 +4,15 @@ import "./Navbar.css";
 const Navbar = props => {
   return (
     <div className='nav-bar container text-center border'>
-      <a className='btn'>Home</a>
-      <a className='btn'>About</a>
-      <a className='btn'>Portfolio</a>
+      <a href='#home' className='btn'>
+        Home
+      </a>
+      <a href='#about' className='btn'>
+        About
+      </a>
+      <a href='#portfolio' className='btn'>
+        Portfolio
+      </a>
       <a className='btn'>Contact</a>
     </div>
   );

@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = props => {
   return (
-    <div className='about text-center border'>
+    <div id='about' className='about text-center border'>
       <div>
         <h2>About Me</h2>
       </div>{" "}
