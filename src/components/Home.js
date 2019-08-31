@@ -9,13 +9,13 @@ const Home = props => {
         <p>{props.description}</p>
       </div>
       <div className='social'>
-        <a href='http://linkedin.com/in/danielvadil' target='_blank'>
+        <a href='http://linkedin.com/in/danielvadil' target='_blank' rel='noopener noreferrer'>
           <i className='fab fa-linkedin'></i>
         </a>
-        <a href='https://github.com/dvadz' target='_blank'>
+        <a href='https://github.com/dvadz' target='_blank' rel='noopener noreferrer'>
           <i className='fab fa-github-square'></i>
         </a>
-        <a href='mailto:dvadz@yahoo.com'>
+        <a href='mailto:dvadz@yahoo.com' rel='noopener noreferrer'>
           <i className='fas fa-envelope-square'></i>
         </a>
       </div>
