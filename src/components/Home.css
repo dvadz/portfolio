@@ -18,3 +18,15 @@
   padding: 10px;
   font-size: 2rem;
 }
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(236, 122, 122);
+}
