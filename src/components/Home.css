@@ -1,5 +1,4 @@
 .home {
-  /* color: blue; */
   height: 100vh;
   display: flex;
 
@@ -8,10 +7,11 @@
   flex-direction: column;
   justify-content: center;
 
-  background-image: url("/images/lake.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #64655f;
+  /* background-image: url("/images/lake.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
 }
 
 .fa-chevron-circle-down {

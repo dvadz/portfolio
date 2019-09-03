@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 const Navbar = props => {
   return (
-    <div className='nav-bar container text-center border'>
+    <div className='nav-bar container text-center'>
       <a href='#home' className='btn'>
         Home
       </a>

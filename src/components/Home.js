@@ -3,8 +3,8 @@ import "./Home.css";
 
 const Home = props => {
   return (
-    <div id='home' className='home border'>
-      <div className='border'>
+    <div id='home' className='home'>
+      <div>
         <h1>{props.name}</h1>
         <p>{props.description}</p>
       </div>
