@@ -19,7 +19,9 @@ const Home = props => {
           <i className='fas fa-envelope-square'></i>
         </a>
       </div>
-      <i className='fas fa-chevron-circle-down'></i>
+      <div className='arrow'>
+        <i className='fas fa-chevron-circle-down'></i>
+      </div>
     </div>
   );
 };
