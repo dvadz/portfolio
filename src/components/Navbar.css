@@ -1,6 +1,12 @@
+.container {
+  padding: 0;
+}
+
 .nav-bar {
-  position: fixed;
+  position: absolute;
   background-color: #2d2d45;
+  z-index: 1;
+  margin-right: -30px;
 }
 
 .nav-bar a:link {

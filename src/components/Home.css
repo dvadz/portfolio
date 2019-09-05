@@ -3,7 +3,7 @@
   display: flex;
 
   position: relative;
-  z-index: -1;
+
   /* alignment */
   text-align: center;
   flex-direction: column;
