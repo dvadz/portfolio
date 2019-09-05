@@ -7,9 +7,6 @@ const Navbar = props => {
       <a href='#home' className='btn'>
         Home
       </a>
-      <a href='#about' className='btn'>
-        About
-      </a>
       <a href='#portfolio' className='btn'>
         Portfolio
       </a>
