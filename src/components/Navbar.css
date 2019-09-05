@@ -1,16 +1,16 @@
 .nav-bar {
   position: fixed;
-  background-color: black;
+  background-color: #2d2d45;
 }
 
-a:link {
-  color: rgb(156, 144, 144);
+.nav-bar a:link {
+  color: #c0bdbd;
 }
 
-a:visited {
-  color: rgb(156, 144, 144);
+.nav-bar a:visited {
+  color: #c0bdbd;
 }
 
-a:hover {
-  color: white;
+.nav-bar a:hover {
+  color: #fbfafa;
 }
