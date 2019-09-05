@@ -1,9 +1,12 @@
 .portfolio {
-  height: 50vh;
+  height: 100vh;
   display: flex;
 
   /* alignment */
   text-align: center;
   flex-direction: column;
   justify-content: center;
+
+  background-color: #8a7374;
+  /* project 1 */
 }
