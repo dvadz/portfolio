@@ -3,10 +3,14 @@
   display: flex;
 
   /* alignment */
-  text-align: center;
+  /* text-align: center; */
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 
   background-color: #8a7374;
-  /* project 1 */
+}
+
+.card {
+  /* width: 90%; */
+  margin: 20px;
 }
