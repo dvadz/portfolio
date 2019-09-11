@@ -11,7 +11,9 @@ const Navbar = props => {
         <a href='#portfolio' className='btn'>
           Portfolio
         </a>
-        <a className='btn'>Contact</a>
+        <a href='#contact' className='btn'>
+          Contact
+        </a>
       </div>
     </div>
   );
