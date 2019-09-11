@@ -3,6 +3,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Portfolio from "./Portfolio";
 import projects from "./projects";
+import Footer from "./Footer";
 
 class App extends React.Component {
   state = {
@@ -14,10 +15,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className='container'>
+      <div>
         <Navbar></Navbar>
         <Home name={this.state.name} description={this.state.description}></Home>
         <Portfolio projects={this.state.projects}></Portfolio>
+        <Footer></Footer>
       </div>
     );
   }
