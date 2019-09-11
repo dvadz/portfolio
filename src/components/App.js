@@ -4,6 +4,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Portfolio from "./Portfolio";
 import projects from "./projects";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
 class App extends React.Component {
@@ -20,6 +21,7 @@ class App extends React.Component {
         <Navbar></Navbar>
         <Home name={this.state.name} description={this.state.description}></Home>
         <Portfolio projects={this.state.projects}></Portfolio>
+        <Contact></Contact>
         <Footer></Footer>
       </div>
     );
