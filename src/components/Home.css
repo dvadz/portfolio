@@ -1,5 +1,7 @@
 .home {
-  height: 100vh;
+  /* height: 100vh; */
+  height: calc(100vh - 38px);
+
   display: flex;
 
   position: relative;
