@@ -9,13 +9,13 @@
 }
 
 .nav-bar a:link {
-  color: #c0bdbd;
+  color: #000000;
 }
 
 .nav-bar a:visited {
-  color: #c0bdbd;
+  color: #000000;
 }
 
 .nav-bar a:hover {
-  color: #fbfafa;
+  color: #ffffff;
 }
