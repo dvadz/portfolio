@@ -3,14 +3,16 @@ import "./Navbar.css";
 
 const Navbar = props => {
   return (
-    <div className='nav-bar container text-center'>
-      <a href='#home' className='btn'>
-        Home
-      </a>
-      <a href='#portfolio' className='btn'>
-        Portfolio
-      </a>
-      <a className='btn'>Contact</a>
+    <div className='nav-bar'>
+      <div className='container text-center'>
+        <a href='#home' className='btn'>
+          Home
+        </a>
+        <a href='#portfolio' className='btn'>
+          Portfolio
+        </a>
+        <a className='btn'>Contact</a>
+      </div>
     </div>
   );
 };

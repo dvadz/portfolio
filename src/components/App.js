@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Portfolio from "./Portfolio";
@@ -15,7 +16,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='app'>
         <Navbar></Navbar>
         <Home name={this.state.name} description={this.state.description}></Home>
         <Portfolio projects={this.state.projects}></Portfolio>

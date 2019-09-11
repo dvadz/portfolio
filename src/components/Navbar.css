@@ -1,12 +1,11 @@
 .container {
-  padding: 0;
 }
 
 .nav-bar {
-  position: absolute;
-  background-color: #2d2d45;
+  /* position: absolute; */
+  /* background-color: #a2d5cd; */
   z-index: 1;
-  margin-right: -30px;
+  /* margin-right: -30px; */
 }
 
 .nav-bar a:link {
