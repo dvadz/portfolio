@@ -9,7 +9,9 @@
   flex-direction: column;
   justify-content: center;
 
-  /* background-color: #64655f; */
+  margin: 0 20px;
+  border-radius: 0.5rem;
+  background-color: #f6f0e8;
   /* background-image: url("/images/lake.jpg"); */
   /* background-repeat: no-repeat; */
   /* background-position: center; */

@@ -2,12 +2,13 @@
   height: 100vh;
   display: flex;
 
-  /* alignment */
+  margin: 20px;
+  border-radius: 0.5rem;
+  background-color: #f6f0e8;
+
   /* text-align: center; */
   flex-direction: column;
   /* justify-content: center; */
-
-  /* background-color: #8a7374; */
 }
 
 .card {

@@ -1,5 +1,7 @@
 .contact {
   height: 100vh;
+
   margin: 20px;
-  background-color: azure;
+  border-radius: 0.5rem;
+  background-color: #f6f0e8;
 }

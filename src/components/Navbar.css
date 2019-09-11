@@ -1,11 +1,7 @@
-.container {
-}
-
 .nav-bar {
+  /* padding-top: 20px; */
   /* position: absolute; */
-  /* background-color: #a2d5cd; */
   z-index: 1;
-  /* margin-right: -30px; */
 }
 
 .nav-bar a:link {
