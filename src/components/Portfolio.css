@@ -2,15 +2,11 @@
   display: flex;
 
   margin-bottom: 20px;
-  /* border-radius: 0.5rem; */
-  background-color: #f6f0e8;
-
-  /* text-align: center; */
+  background-color: #8a90ad;
   flex-direction: column;
-  /* justify-content: center; */
 }
 
 .card {
   /* width: 90%; */
-  margin: 20px;
+  /* margin: 20px; */
 }
