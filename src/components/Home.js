@@ -1,12 +1,15 @@
 import React from "react";
 import "./Home.css";
 
+import Navbar from "./Navbar";
+
 const Home = props => {
   return (
     <div id='home' className='home'>
+      <Navbar></Navbar>
       <div>
-        <h1>{props.name}</h1>
-        <p>{props.description}</p>
+        <h1 className='daniel sm-'>{props.name}</h1>
+        <p className='about-daniel'>{props.description}</p>
       </div>
       <div className='social'>
         <a href='http://linkedin.com/in/danielvadil' target='_blank' rel='noopener noreferrer'>
@@ -20,7 +23,9 @@ const Home = props => {
         </a>
       </div>
       <div className='arrow'>
-        <i className='fas fa-chevron-circle-down'></i>
+        <a href='#portfolio'>
+          <i className='fas fa-chevron-circle-down'></i>
+        </a>
       </div>
     </div>
   );
