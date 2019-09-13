@@ -11,14 +11,13 @@ class App extends React.Component {
   state = {
     name: "Daniel Vadil",
     description:
-      "Full Stack Web Developer with years of experience in Software Testing. Knowledgeable in the waterfall and agile software development life cycle methodologies. Focused on the user experience.",
+      "Full Stack Web Developer with years of experience in Software Testing. Knowledgeable in the waterfall and agile software development life cycle methodologies.",
     projects: projects
   };
 
   render() {
     return (
       <div className='app'>
-        <Navbar></Navbar>
         <Home name={this.state.name} description={this.state.description}></Home>
         <Portfolio projects={this.state.projects}></Portfolio>
         <Contact></Contact>
