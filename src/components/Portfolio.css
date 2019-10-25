@@ -1,13 +1,8 @@
 .portfolio {
   display: flex;
-
-  /* margin-bottom: 20px; */
-  background-color: #8a90ad;
   flex-direction: column;
 }
 
 .card {
-  background-color: #8a90ad;
-  /* width: 90%; */
   margin: 20px;
 }
