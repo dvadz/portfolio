@@ -2,25 +2,36 @@
   min-height: 100vh;
   /* height: calc(100vh - 38px); */
 
-  /* margin-bottom: 20px; */
-  background-image: url("/images/newyork.jpg");
+  background-image: linear-gradient(rgba(5, 0, 20, 0.9), rgba(0, 0, 0, 0.3)),
+    url("/images/newyork.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  opacity: 0.8;
+  position: relative;
 }
 
-.daniel {
+.header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.name {
   color: rgb(240, 235, 235);
   text-align: center;
   font-size: 3rem;
-  margin: 30px;
+  letter-spacing: 25px;
+  margin-bottom: 30px;
 }
 
-.about-daniel {
+.about {
   color: rgb(240, 235, 235);
   text-align: center;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .arrow {
@@ -43,10 +54,7 @@
   font-size: 2rem;
 }
 
-a:link {
-  color: whitesmoke;
-}
-
+a:link,
 a:visited {
   color: whitesmoke;
 }
