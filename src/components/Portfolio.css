@@ -1,8 +1,5 @@
 .portfolio {
-  /* display: flex; */
-  /* flex-direction: column; */
-  height: 100vh;
-  min-height: 700px;
+  padding-bottom: 90px;
 }
 
 .card {
