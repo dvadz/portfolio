@@ -5,13 +5,16 @@
 }
 
 .nav-bar a:link {
-  color: white;
+  color: rgb(158, 174, 202);
+  /* color: white; */
 }
 
 .nav-bar a:visited {
   color: white;
+  color: rgb(158, 174, 202);
 }
 
 .nav-bar a:hover {
-  color: rgb(107, 139, 151);
+  /* color: rgb(107, 139, 151); */
+  color: whitesmoke;
 }

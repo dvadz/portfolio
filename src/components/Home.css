@@ -21,7 +21,7 @@
 }
 
 .name {
-  color: rgb(240, 235, 235);
+  color: rgb(239, 239, 247);
   text-align: center;
   font-size: 3rem;
   letter-spacing: 25px;
@@ -29,7 +29,7 @@
 }
 
 .about {
-  color: rgb(240, 235, 235);
+  color: rgb(158, 174, 202);
   text-align: center;
   margin-bottom: 20px;
 }
