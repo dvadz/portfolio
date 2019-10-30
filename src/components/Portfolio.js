@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div id='portfolio' className='portfolio container'>
       <div className='row'>
-        <h2 className='py-4 mx-auto'>Portfolio</h2>
+        <h2 className='py-4 mx-auto text-white'>Portfolio</h2>
       </div>
 
       <div className='row'>
