@@ -3,7 +3,7 @@
   /* height: calc(100vh - 38px); */
 
   background-image: linear-gradient(rgba(5, 0, 20, 0.9), rgba(0, 0, 0, 0.3)),
-    url("/images/newyork.jpg");
+    url("../images/newyork.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
