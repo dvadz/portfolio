@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6451c1c0.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.0181b18a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.0181b18a.chunk.js.map",
-    "runtime~main.js": "/react-portfolio/static/js/runtime~main.e2a5686a.js",
-    "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.e2a5686a.js.map",
-    "static/js/2.a17ff188.chunk.js": "/react-portfolio/static/js/2.a17ff188.chunk.js",
-    "static/js/2.a17ff188.chunk.js.map": "/react-portfolio/static/js/2.a17ff188.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "precache-manifest.474c286421c007301512461b7fad3b5a.js": "/react-portfolio/precache-manifest.474c286421c007301512461b7fad3b5a.js",
-    "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.6451c1c0.chunk.css.map": "/react-portfolio/static/css/main.6451c1c0.chunk.css.map",
-    "static/media/Home.css": "/react-portfolio/static/media/newyork.c8979b76.jpg",
-    "static/media/noob.png": "/react-portfolio/static/media/noob.eaf4f6e8.png",
-    "static/media/rapidfire.png": "/react-portfolio/static/media/rapidfire.337087ae.png",
-    "static/media/rpg.png": "/react-portfolio/static/media/rpg.c8c68b9c.png"
+    "main.css": "/portfolio/static/css/main.fabab939.chunk.css",
+    "main.js": "/portfolio/static/js/main.02bf9203.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.02bf9203.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.873fe5ac.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.873fe5ac.js.map",
+    "static/js/2.a17ff188.chunk.js": "/portfolio/static/js/2.a17ff188.chunk.js",
+    "static/js/2.a17ff188.chunk.js.map": "/portfolio/static/js/2.a17ff188.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.381c83c11d6be4599068f1f0cb060feb.js": "/portfolio/precache-manifest.381c83c11d6be4599068f1f0cb060feb.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.fabab939.chunk.css.map": "/portfolio/static/css/main.fabab939.chunk.css.map",
+    "static/media/Home.css": "/portfolio/static/media/newyork.c8979b76.jpg",
+    "static/media/noob.png": "/portfolio/static/media/noob.eaf4f6e8.png",
+    "static/media/rapidfire.png": "/portfolio/static/media/rapidfire.337087ae.png",
+    "static/media/rpg.png": "/portfolio/static/media/rpg.c8c68b9c.png"
   }
 }
