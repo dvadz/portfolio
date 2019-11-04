@@ -27,10 +27,16 @@ const Portfolio = () => {
                     commenting on others' questions. Also share your ideas and new discoveries.
                   </p>
                   <a
-                    className='btn btn-primary'
+                    className='btn btn-primary mr-2'
                     href='https://noob-board.herokuapp.com/'
                     target='_blank'>
                     Open
+                  </a>
+                  <a
+                    className='btn btn-secondary'
+                    href='https://github.com/dvadz/noob-board'
+                    target='_blank'>
+                    Github
                   </a>
                 </div>
               </div>
@@ -52,10 +58,16 @@ const Portfolio = () => {
                     Test your basic Javascript knowledge with this quiz on a short timer.
                   </p>
                   <a
-                    className='btn btn-primary'
+                    className='btn btn-primary mr-2'
                     href='https://dvadz.github.io/TriviaGame/'
                     target='_blank'>
                     Open
+                  </a>
+                  <a
+                    className='btn btn-secondary'
+                    href='https://github.com/dvadz/TriviaGame'
+                    target='_blank'>
+                    Github
                   </a>
                 </div>
               </div>
@@ -76,10 +88,16 @@ const Portfolio = () => {
                     Pick your favorite player and defeat the rest of them.
                   </p>
                   <a
-                    className='btn btn-primary'
+                    className='btn btn-primary mr-2'
                     href=' https://dvadz.github.io/unit-4-game/'
                     target='_blank'>
                     Open
+                  </a>
+                  <a
+                    className='btn btn-secondary'
+                    href='https://github.com/dvadz/unit-4-game'
+                    target='_blank'>
+                    Github
                   </a>
                 </div>
               </div>
