@@ -11,6 +11,6 @@
   overflow: hidden;
 }
 
-.card-text:hover {
+.card:hover .card-text {
   max-height: fit-content;
 }
