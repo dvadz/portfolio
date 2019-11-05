@@ -5,3 +5,12 @@
 .card {
   margin-bottom: 40px;
 }
+
+.card-text {
+  max-height: 64px;
+  overflow: hidden;
+}
+
+.card-text:hover {
+  max-height: fit-content;
+}
