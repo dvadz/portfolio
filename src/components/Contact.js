@@ -2,6 +2,11 @@ import React from "react";
 import "./Contact.css";
 
 class Contact extends React.Component {
+  handleSubmit = event => {
+    event.preventDefault();
+    console.log("Submitted Message");
+  };
+
   render() {
     return (
       <div id='contact' className='contact'>
@@ -18,7 +23,7 @@ class Contact extends React.Component {
               </p>
               <p className='mx-2 mt-4'>
                 <a href='tel:(647) 641-3234'>
-                  <i class='fas fa-phone mr-3'></i> (647) 641-3234
+                  <i className='fas fa-phone mr-3'></i> (647) 641-3234
                 </a>
               </p>
             </div>
@@ -69,7 +74,12 @@ class Contact extends React.Component {
                     placeholder='Message'
                     required></textarea>
                 </div>
-                <button className='btn btn-primary' type='submit'>
+                <button
+                  className='btn btn-primary'
+                  type='submit'
+                  onClick={event => {
+                    this.handleSubmit(event);
+                  }}>
                   Send Email
                 </button>
               </form>
