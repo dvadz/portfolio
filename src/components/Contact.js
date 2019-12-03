@@ -9,7 +9,7 @@ class Contact extends React.Component {
     message: ""
   };
 
-  handleSubmit = event => {
+  handleFormSubmit = event => {
     event.preventDefault();
     console.log("Submitted Message");
   };
@@ -17,7 +17,6 @@ class Contact extends React.Component {
   handleInputChange = event => {
     const { name, value } = event.target;
     this.setState({ [name]: value });
-    console.log(event.target);
   };
 
   render() {
@@ -43,7 +42,7 @@ class Contact extends React.Component {
 
             {/* Email */}
             <div className='col-md-8 mb-4'>
-              <form>
+              <form onSubmit={this.handleFormSubmit}>
                 {/* Name */}
                 <div className='form-group'>
                   {/* <label for='name'></label> */}
@@ -103,12 +102,7 @@ class Contact extends React.Component {
                     placeholder='Your message'
                     required></textarea>
                 </div>
-                <button
-                  className='btn btn-primary'
-                  type='submit'
-                  onClick={event => {
-                    this.handleSubmit(event);
-                  }}>
+                <button className='btn btn-primary' type='submit'>
                   Send Email
                 </button>
               </form>
