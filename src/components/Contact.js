@@ -2,9 +2,22 @@ import React from "react";
 import "./Contact.css";
 
 class Contact extends React.Component {
+  state = {
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
+  };
+
   handleSubmit = event => {
     event.preventDefault();
     console.log("Submitted Message");
+  };
+
+  handleInputChange = event => {
+    const { name, value } = event.target;
+    this.setState({ [name]: value });
+    console.log(event.target);
   };
 
   render() {
@@ -32,46 +45,62 @@ class Contact extends React.Component {
             <div className='col-md-8 mb-4'>
               <form>
                 {/* Name */}
-                <div class='form-group'>
+                <div className='form-group'>
                   {/* <label for='name'></label> */}
                   <input
                     type='text'
-                    class='form-control'
-                    id='name'
+                    className='form-control'
+                    name='name'
+                    value={this.state.name}
+                    onChange={event => {
+                      this.handleInputChange(event);
+                    }}
                     placeholder='Your name'
                     required
                   />
                 </div>
                 {/* Email Address */}
-                <div class='form-group'>
+                <div className='form-group'>
                   {/* <label for='email'></label> */}
                   <input
                     type='email'
-                    class='form-control'
-                    id='email'
+                    className='form-control'
+                    name='email'
+                    value={this.state.email}
+                    onChange={event => {
+                      this.handleInputChange(event);
+                    }}
                     placeholder='Your email address'
                     required
                   />
                 </div>
                 {/* Subject */}
-                <div class='form-group'>
+                <div className='form-group'>
                   {/* <label for='subject'></label> */}
                   <input
                     type='text'
-                    class='form-control'
-                    id='subject'
+                    className='form-control'
+                    name='subject'
+                    value={this.state.subject}
+                    onChange={event => {
+                      this.handleInputChange(event);
+                    }}
                     placeholder='Subject'
                     required
                   />
                 </div>
                 {/* Message */}
-                <div class='form-group'>
+                <div className='form-group'>
                   {/* <label for='message'>Message</label> */}
                   <textarea
-                    class='form-control'
-                    id='message'
+                    className='form-control'
+                    name='message'
                     rows='5'
-                    placeholder='Message'
+                    value={this.state.message}
+                    onChange={event => {
+                      this.handleInputChange(event);
+                    }}
+                    placeholder='Your message'
                     required></textarea>
                 </div>
                 <button
