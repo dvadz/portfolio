@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import axios from "axios";
 
 class Contact extends React.Component {
   state = {
@@ -11,7 +12,14 @@ class Contact extends React.Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    console.log("Submitted Message");
+    axios
+      .post("/post", this.state)
+      .then(response => {
+        console.log(response);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   };
 
   handleInputChange = event => {

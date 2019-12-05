@@ -11,17 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.post("/post", (req, res) => {
-  console.log("Sending an email");
-
-  const mailOptions = {
-    from: "new.noob.board",
-    to: "dtvadil@gmail.com",
-    subject: req.body.subject,
-    text: req.body.message
-  };
-
-  sendEmail(mailOptions);
-  res.send("OK");
+  console.log("Requested to send an email");
+  sendEmail(req, res);
 });
 
 app.get("/", (req, res) => {
@@ -29,5 +20,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, function() {
-  console.log(`Node Emailer is running on PORT ${PORT}`);
+  console.log(`Portfolio site is running on PORT ${PORT}`);
 });

@@ -8,19 +8,28 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-const sendEmail = (mailOptions, req, res) => {
+const sendEmail = (req, res) => {
   // mailOptions must have: "from", "to", "subject", "text"
 
-  console.log("About to send");
-  transporter.sendMail(mailOptions, (error, info) => {
-    console.log(mailOptions);
+  const message = `FROM: ${req.body.name} [${req.body.email}]
+  SUBJECT: ${req.body.subject}
+  MESSAGE: ${req.body.message}`;
 
+  const mailOptions = {
+    from: "new.noob.board",
+    to: "dtvadil@gmail.com",
+    subject: "EMAIL FROM YOUR PORTFOLIO SITE",
+    text: message
+  };
+
+  transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.log("nodemailer error");
-      return console.log(error);
+      console.log("Nodemailer error");
+      console.log(error);
     }
 
-    console.log("Email sent to " + to);
+    console.log("Email was sent successfully");
+    res.send("OK");
   });
 };
 
