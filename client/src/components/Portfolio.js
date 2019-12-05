@@ -29,13 +29,15 @@ const Portfolio = () => {
                   <a
                     className='btn btn-primary mr-2'
                     href='https://noob-board.herokuapp.com/'
-                    target='_blank'>
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     Open
                   </a>
                   <a
                     className='btn btn-secondary'
                     href='https://github.com/dvadz/noob-board'
-                    target='_blank'>
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     Github
                   </a>
                 </div>
@@ -60,13 +62,15 @@ const Portfolio = () => {
                   <a
                     className='btn btn-primary mr-2'
                     href='https://dvadz.github.io/TriviaGame/'
-                    target='_blank'>
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     Open
                   </a>
                   <a
                     className='btn btn-secondary'
                     href='https://github.com/dvadz/TriviaGame'
-                    target='_blank'>
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     Github
                   </a>
                 </div>
@@ -96,7 +100,8 @@ const Portfolio = () => {
                   <a
                     className='btn btn-secondary'
                     href='https://github.com/dvadz/unit-4-game'
-                    target='_blank'>
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     Github
                   </a>
                 </div>
