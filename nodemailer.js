@@ -26,6 +26,7 @@ const sendEmail = (req, res) => {
     if (error) {
       console.log("Nodemailer error");
       console.log(error);
+      res.send(error);
     }
 
     console.log("Email was sent successfully");
