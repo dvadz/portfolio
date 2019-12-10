@@ -12,13 +12,28 @@ class Contact extends React.Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
+    this.setState({ error: "" });
     axios
       .post("/post", this.state)
       .then(response => {
         console.log("Email sent");
+        this.setState({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+          error: ""
+        });
+        this.setState({
+          error: "Your message has been sent!"
+        });
       })
       .catch(error => {
         console.log("Email failed");
+        this.setState({
+          error:
+            "Can't send your email at the moment. Please send an email to dvadil@gmail.com using your favorite app."
+        });
       });
   };
 
@@ -113,6 +128,7 @@ class Contact extends React.Component {
                 <button className='btn btn-primary' type='submit'>
                   Send Email
                 </button>
+                <p className='mt-4'> {this.state.error}</p>
               </form>
             </div>
           </div>
