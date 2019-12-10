@@ -1,7 +1,11 @@
 const nodemailer = require("nodemailer");
 
+const host = process.env.NODE_ENV === "production" ? "dvadil.herokuapp.com" : "locahost";
+console.log(`HOST = ${host}`);
+
 const transporter = nodemailer.createTransport({
   service: "gmail",
+  host: host,
   auth: {
     user: process.env.GMAIL_USERNAME,
     pass: process.env.GMAIL_PASSWORD
@@ -16,19 +20,20 @@ const sendEmail = (req, res) => {
   MESSAGE: ${req.body.message}`;
 
   const mailOptions = {
-    from: "new.noob.board",
-    to: "dtvadil@gmail.com",
+    from: "dv.nodemailer@gmail.com",
+    to: process.env.SEND_TO,
     subject: "EMAIL FROM YOUR PORTFOLIO SITE",
     text: message
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.log("Nodemailer error");
       console.log(error);
+      console.log("Nodemailer error");
       return res.send(error);
     }
 
+    console.log(info);
     console.log("Email was sent successfully");
     res.send("OK");
   });
