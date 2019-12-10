@@ -15,10 +15,10 @@ class Contact extends React.Component {
     axios
       .post("/post", this.state)
       .then(response => {
-        console.log(response);
+        console.log("Email sent");
       })
       .catch(error => {
-        console.log(error);
+        console.log("Email failed");
       });
   };
 
