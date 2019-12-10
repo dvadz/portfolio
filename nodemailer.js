@@ -30,7 +30,7 @@ const sendEmail = (req, res) => {
     if (error) {
       console.log(error);
       console.log("Nodemailer error");
-      return res.send(error);
+      return res.status(500).end();
     }
 
     console.log(info);
