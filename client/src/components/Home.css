@@ -60,5 +60,14 @@ a:visited {
 }
 
 a:hover {
-  color: #bbb2b4;
+  /* color: #bbb2b4; */
+}
+
+.home-i {
+  transition: all 0.2s;
+}
+
+.home .home-i:hover {
+  color: white;
+  transform: scale(1.4);
 }

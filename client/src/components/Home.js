@@ -15,13 +15,13 @@ const Home = props => {
         {/* Social media and mailto links */}
         <div className='social'>
           <a href='http://linkedin.com/in/danielvadil' target='_blank' rel='noopener noreferrer'>
-            <i className='fab fa-linkedin'></i>
+            <i className='home-i fab fa-linkedin'></i>
           </a>
           <a href='https://github.com/dvadz' target='_blank' rel='noopener noreferrer'>
-            <i className='fab fa-github-square'></i>
+            <i className='home-i fab fa-github-square'></i>
           </a>
           <a href='mailto:dtvadil@gmail.com' rel='noopener noreferrer'>
-            <i className='fas fa-envelope-square'></i>
+            <i className='home-i fas fa-envelope-square'></i>
           </a>
         </div>
         {/* Arrow down */}
