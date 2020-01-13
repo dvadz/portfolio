@@ -3,7 +3,7 @@ const path = require("path");
 require("dotenv").config();
 
 const PORT = process.env.PORT || 3001;
-const sendEmail = require("./nodemailer");
+const sendEmailViaMailgun = require("./mailgun");
 
 const app = express();
 
@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.post("/post", (req, res) => {
   console.log("Requested to send an email");
-  sendEmail(req, res);
+  sendEmailViaMailgun(req, res);
 });
 
 // Send every request to the React app
