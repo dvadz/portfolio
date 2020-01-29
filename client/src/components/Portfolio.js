@@ -55,7 +55,7 @@ const Portfolio = () => {
               </div>
               <div>
                 <div className='card-body'>
-                  <h5 className='card-title'>Rapidfire</h5>
+                  <h5 className='card-title'>Trivia Game</h5>
                   <p className='card-text'>
                     Test your basic Javascript knowledge with this quiz on a short timer.
                   </p>
