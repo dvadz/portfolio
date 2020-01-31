@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import noob from "../images/noob.png";
 import rapidfire from "../images/rapidfire.png";
 import rpg from "../images/rpg.png";
+import guess from "../images/guess.png";
 
 const Portfolio = () => {
   return (
@@ -79,6 +80,35 @@ const Portfolio = () => {
           </div>
         </div>
         {/* Project 3 */}
+        <div className=' col-md-4'>
+          <div className='card'>
+            <div className='row no-gutters'>
+              <div>
+                <img src={guess} className='card-img' alt='project' />
+              </div>
+              <div>
+                <div className='card-body'>
+                  <h5 className='card-title'>Word Guess</h5>
+                  <p className='card-text'>Need to add description</p>
+                  <a
+                    className='btn btn-primary mr-2'
+                    href='https://dvadz.github.io/Word-Guess-Game/'
+                    target='_blank'>
+                    Open
+                  </a>
+                  <a
+                    className='btn btn-secondary'
+                    href='https://github.com/dvadz/Word-Guess-Game'
+                    target='_blank'
+                    rel='noopener noreferrer'>
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project 4 */}
         <div className=' col-md-4'>
           <div className='card'>
             <div className='row no-gutters'>
